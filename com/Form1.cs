@@ -21,10 +21,7 @@ namespace com
 {
     public partial class Form1 : Form
     {
-
-
         private bool IsOver;
-
         double b = 0.0;
         long X;
         long Y;
@@ -37,8 +34,6 @@ namespace com
             IsOver = false;
             serialPort1.PortName = GetKey("com.exe.config", "PortName");
             serialPort2.PortName = GetKey("com.exe.config", "SendPortName");
-
-            
         }
         private void Form1_Load(object sender, EventArgs e)
         {
